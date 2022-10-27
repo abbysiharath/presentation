@@ -1,0 +1,41 @@
+body {
+    padding: 20px;
+    font-family: "Open sans", sans-serif;
+    }
+    h1 {
+    text-align:center;
+    }
+    
+    section {
+    padding: 50px;
+    background-color: #FAF5E8;
+    border: 2px solid #ABB5B9;}
+    .container {
+    display: grid;
+    width: 1100px;
+    margin:auto;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr ;
+    grid-gap: 20px;
+    grid-template-areas:
+    "content-1"
+     "content-2"
+     "content-3"
+     "content-4"
+     "content-5";
+    }
+    .content-1 {
+    grid-area: content-1;
+    }
+    .content-2 {
+    grid-area: content-2;
+    }
+    .content-3 {
+    grid-area: content-3;
+    }
+    .content-4 {
+    grid-area: content-4;
+    }
+    .content-5 {
+    grid-area: content-5;
+    }
